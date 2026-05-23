@@ -1,0 +1,180 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins', sans-serif;
+  background:#f8f4f1;
+}
+
+/* NAVBAR */
+
+.navbar{
+  width:100%;
+  padding:30px 70px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:45px;
+  position:absolute;
+  top:0;
+  z-index:10;
+}
+
+.navbar a{
+  text-decoration:none;
+  color:#6b4323;
+  font-size:17px;
+  letter-spacing:1px;
+}
+
+.logo{
+  font-family:'Great Vibes', cursive;
+  font-size:58px;
+  color:#d32f2f;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo span{
+  color:#ff003c;
+  font-size:24px;
+}
+
+/* HERO */
+
+.hero{
+  width:100%;
+  height:100vh;
+  background:url('../wvn/_AMI6517.jpg');
+  background-size:cover;
+  background-position:right;
+  position:center;
+}
+
+.overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(255,245,238,0.55);
+}
+
+.content{
+  position:relative;
+  z-index:2;
+  padding-top:220px;
+  padding-left:120px;
+  color:#6d3f1c;
+}
+
+.content h1{
+  font-family:'Cormorant Garamond', serif;
+  font-size:90px;
+}
+
+.content h2{
+  font-family:'Cormorant Garamond', serif;
+  font-size:50px;
+  margin-left:50px;
+}
+
+.place{
+  font-family:'Great Vibes', cursive;
+  font-size:78px;
+  margin:20px 0 40px;
+  margin-left:100px;
+}
+
+.couple{
+  font-size:28px;
+  letter-spacing:2px;
+  margin-left:50px;
+}
+
+.date{
+  font-size:22px;
+  margin:20px 0 40px;
+  margin-left:50px;
+}
+
+.btn{
+  display:inline-block;
+  padding:16px 38px;
+  background:#efa9bc;
+  color:white;
+  text-decoration:none;
+  border-radius:40px;
+  margin-left:40px;
+}
+
+/* PAGES */
+
+.page{
+  padding:180px 80px;
+  text-align:center;
+}
+
+.page h1{
+  font-size:60px;
+  margin-bottom:30px;
+  color:#6b4323;
+  font-family:'Cormorant Garamond', serif;
+}
+
+.page p{
+  font-size:20px;
+  color:#444;
+}
+
+/* CARD */
+
+.card{
+  background:white;
+  padding:30px;
+  margin:20px auto;
+  max-width:400px;
+  border-radius:20px;
+  box-shadow:0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* GALLERY */
+
+.gallery{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.gallery img{
+  width:300px;
+  border-radius:20px;
+}
+
+/* RSVP FORM */
+
+.rsvp-form{
+  max-width:400px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.rsvp-form input,
+.rsvp-form select{
+  padding:15px;
+  border-radius:10px;
+  border:none;
+}
+
+.rsvp-form button{
+  padding:15px;
+  background:#efa9bc;
+  border:none;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
